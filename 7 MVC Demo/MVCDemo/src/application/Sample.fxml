@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="250.0" prefWidth="250.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <children>
+      <Button layoutX="34.0" layoutY="73.0" mnemonicParsing="false" onAction="#process" text="1" />
+      <Button layoutX="103.0" layoutY="73.0" mnemonicParsing="false" onAction="#process" text="2" />
+      <Button layoutX="175.0" layoutY="73.0" mnemonicParsing="false" onAction="#process" text="3" />
+      <Button layoutX="34.0" layoutY="114.0" mnemonicParsing="false" onAction="#process" text="4" />
+      <Button layoutX="103.0" layoutY="114.0" mnemonicParsing="false" onAction="#process" text="5" />
+      <Button layoutX="175.0" layoutY="114.0" mnemonicParsing="false" onAction="#process" text="6" />
+      <Button layoutX="37.0" layoutY="217.0" mnemonicParsing="false" onAction="#operate" text="*" />
+      <Button layoutX="174.0" layoutY="217.0" mnemonicParsing="false" onAction="#operate" text="=" />
+      <Button layoutX="34.0" layoutY="183.0" mnemonicParsing="false" onAction="#process" text="0" />
+      <TextField fx:id="output" layoutX="48.0" layoutY="26.0" />
+      <Button layoutX="35.0" layoutY="150.0" mnemonicParsing="false" onAction="#process" text="7" />
+      <Button layoutX="103.0" layoutY="150.0" mnemonicParsing="false" onAction="#process" text="8" />
+      <Button layoutX="175.0" layoutY="150.0" mnemonicParsing="false" onAction="#process" text="9" />
+      <Button layoutX="103.0" layoutY="183.0" mnemonicParsing="false" onAction="#operate" text="+" />
+      <Button layoutX="175.0" layoutY="183.0" mnemonicParsing="false" onAction="#operate" prefHeight="22.0" prefWidth="25.0" text="-" />
+      <Button layoutX="105.0" layoutY="217.0" mnemonicParsing="false" onAction="#operate" text="/" />
+   </children>
+</AnchorPane>

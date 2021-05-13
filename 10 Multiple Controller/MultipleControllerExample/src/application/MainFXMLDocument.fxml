@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <Label fx:id="label" layoutX="228.0" layoutY="94.0" prefHeight="145.0" prefWidth="238.0" />
+      <BorderPane fx:id="mainPane" layoutX="2.0" prefHeight="400.0" prefWidth="600.0">
+         <left>
+            <VBox fx:id="vb" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#handleScreen1Action" text="Screen 1">
+                     <VBox.margin>
+                        <Insets left="10.0" top="10.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#handleScreen2Action" text="Screen 2">
+                     <VBox.margin>
+                        <Insets left="10.0" top="30.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button layoutX="10.0" layoutY="32.0" mnemonicParsing="false" onAction="#handleScreen3Action" text="Screen 3">
+                     <VBox.margin>
+                        <Insets left="10.0" top="30.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button alignment="BASELINE_CENTER" layoutX="10.0" layoutY="54.0" mnemonicParsing="false" onAction="#handleScreen4Action" text="Screen 4">
+                     <VBox.margin>
+                        <Insets left="10.0" top="30.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#handleScreen5Action" text="Screen 5">
+                     <VBox.margin>
+                        <Insets left="10.0" top="30.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+            </VBox>
+         </left>
+      </BorderPane>
+   </children>
+</AnchorPane>
